@@ -1,0 +1,1 @@
+Using Bezier Surface patches, the program renders Gumbo model on the screen which can be tessellated up & down (for both:Inner - Outer) using + & - keys and Shift+ and Shift- keys.
