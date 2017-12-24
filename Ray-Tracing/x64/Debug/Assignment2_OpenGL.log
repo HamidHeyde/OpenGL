@@ -1,0 +1,30 @@
+﻿Build started 10/25/2017 3:29:00 PM.
+     1>Project "C:\Users\h_heidar\Downloads\Assignment2_OpenGL\Assignment2_OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\h_heidar\Downloads\Assignment2_OpenGL\third-party\glew-win32\include" /I"C:\Users\h_heidar\Downloads\Assignment2_OpenGL\third-party\glfw\include" /I"C:\Users\h_heidar\Downloads\Assignment2_OpenGL\third-party\DevIL\include" /I"C:\Users\h_heidar\Downloads\Assignment2_OpenGL\third-party\glm" /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Assignment2_OpenGL.cpp
+         Assignment2_OpenGL.cpp
+     1>c:\users\h_heidar\downloads\assignment2_opengl\shader_helper.h(16): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\Assignment2_OpenGL.exe" /INCREMENTAL /NOLOGO opengl32.lib "C:\Users\h_heidar\Downloads\Assignment2_OpenGL\third-party\glew-win32\lib\Release\x64\glew32s.lib" "C:\Users\h_heidar\Downloads\Assignment2_OpenGL\third-party\glfw\build-msvc120\src\Debug\glfw3.lib" "C:\Users\h_heidar\Downloads\Assignment2_OpenGL\third-party\DevIL\build-msvc120\lib\x64\Debug\DevIL.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\Assignment2_OpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\Assignment2_OpenGL.lib" /MACHINE:X64 x64\Debug\Assignment2_OpenGL.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(context.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(init.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(input.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(monitor.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(vulkan.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(window.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(win32_init.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(win32_time.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(win32_tls.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(win32_window.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(wgl_context.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glfw3.lib(egl_context.obj) : warning LNK4204: 'C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Assignment2_OpenGL.vcxproj -> C:\Users\h_heidar\Downloads\Assignment2_OpenGL\x64\Debug\Assignment2_OpenGL.exe
+     1>Done Building Project "C:\Users\h_heidar\Downloads\Assignment2_OpenGL\Assignment2_OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.68
